@@ -164,6 +164,7 @@ public class Principal extends javax.swing.JFrame {
         btnCadastrar.setBackground(new java.awt.Color(255, 51, 153));
         btnCadastrar.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         btnCadastrar.setForeground(new java.awt.Color(255, 255, 255));
+        btnCadastrar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/diskette.png"))); // NOI18N
         btnCadastrar.setText("Cadastrar");
         btnCadastrar.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnCadastrar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -176,6 +177,7 @@ public class Principal extends javax.swing.JFrame {
         btnEditar.setBackground(new java.awt.Color(153, 51, 255));
         btnEditar.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         btnEditar.setForeground(new java.awt.Color(255, 255, 255));
+        btnEditar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edit.png"))); // NOI18N
         btnEditar.setText("Editar");
         btnEditar.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnEditar.addActionListener(new java.awt.event.ActionListener() {
@@ -187,6 +189,7 @@ public class Principal extends javax.swing.JFrame {
         btnExcluir.setBackground(new java.awt.Color(200, 0, 80));
         btnExcluir.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         btnExcluir.setForeground(new java.awt.Color(255, 255, 255));
+        btnExcluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/delete.png"))); // NOI18N
         btnExcluir.setText("Excluir");
         btnExcluir.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnExcluir.addActionListener(new java.awt.event.ActionListener() {
@@ -198,6 +201,7 @@ public class Principal extends javax.swing.JFrame {
         btnLimpar.setBackground(new java.awt.Color(80, 80, 80));
         btnLimpar.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         btnLimpar.setForeground(new java.awt.Color(255, 255, 255));
+        btnLimpar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dust.png"))); // NOI18N
         btnLimpar.setText("Limpar");
         btnLimpar.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnLimpar.addActionListener(new java.awt.event.ActionListener() {
@@ -271,7 +275,7 @@ public class Principal extends javax.swing.JFrame {
                 .addGap(50, 50, 50))
         );
 
-        jTabbedPane2.addTab("Cliente", new javax.swing.ImageIcon(getClass().getResource("/user.png")), jPanel6); // NOI18N
+        jTabbedPane2.addTab("Cliente", new javax.swing.ImageIcon(getClass().getResource("/client.png")), jPanel6); // NOI18N
 
         jPanel7.setBackground(new java.awt.Color(30, 0, 40));
 
@@ -318,6 +322,7 @@ public class Principal extends javax.swing.JFrame {
         btnAgendar.setBackground(new java.awt.Color(255, 51, 153));
         btnAgendar.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         btnAgendar.setForeground(new java.awt.Color(255, 255, 255));
+        btnAgendar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/schedule.png"))); // NOI18N
         btnAgendar.setText("Agendar");
         btnAgendar.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnAgendar.addActionListener(new java.awt.event.ActionListener() {
@@ -329,6 +334,7 @@ public class Principal extends javax.swing.JFrame {
         btnCancelar.setBackground(new java.awt.Color(80, 80, 80));
         btnCancelar.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         btnCancelar.setForeground(new java.awt.Color(255, 255, 255));
+        btnCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cross.png"))); // NOI18N
         btnCancelar.setText("Cancelar");
         btnCancelar.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnCancelar.addActionListener(new java.awt.event.ActionListener() {
@@ -374,7 +380,6 @@ public class Principal extends javax.swing.JFrame {
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel7)
                     .addComponent(jLabel8))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -382,14 +387,14 @@ public class Principal extends javax.swing.JFrame {
                             .addComponent(cbxArtista, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
-                        .addGap(0, 7, Short.MAX_VALUE)
+                        .addGap(0, 19, Short.MAX_VALUE)
                         .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(btnCancelar, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btnAgendar, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(43, 43, 43))))
         );
 
-        jTabbedPane2.addTab("Agendamento", new javax.swing.ImageIcon(getClass().getResource("/agenda.png")), jPanel7); // NOI18N
+        jTabbedPane2.addTab("Agendamento", new javax.swing.ImageIcon(getClass().getResource("/calendar.png")), jPanel7); // NOI18N
 
         jPanel8.setBackground(new java.awt.Color(30, 0, 40));
 
@@ -453,6 +458,7 @@ public class Principal extends javax.swing.JFrame {
         btnCalcular.setBackground(new java.awt.Color(255, 153, 0));
         btnCalcular.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         btnCalcular.setForeground(new java.awt.Color(255, 255, 255));
+        btnCalcular.setIcon(new javax.swing.ImageIcon(getClass().getResource("/calculator.png"))); // NOI18N
         btnCalcular.setText("Calcular");
         btnCalcular.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnCalcular.addActionListener(new java.awt.event.ActionListener() {
@@ -531,7 +537,7 @@ public class Principal extends javax.swing.JFrame {
                 .addContainerGap(28, Short.MAX_VALUE))
         );
 
-        jTabbedPane2.addTab("Orçamento", new javax.swing.ImageIcon(getClass().getResource("/wallet.png")), jPanel8); // NOI18N
+        jTabbedPane2.addTab("Orçamento", new javax.swing.ImageIcon(getClass().getResource("/money.png")), jPanel8); // NOI18N
 
         jPanel9.setBackground(new java.awt.Color(30, 0, 40));
         jPanel9.setForeground(new java.awt.Color(220, 180, 255));
@@ -544,6 +550,7 @@ public class Principal extends javax.swing.JFrame {
         btnAddImagem.setBackground(new java.awt.Color(153, 51, 255));
         btnAddImagem.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         btnAddImagem.setForeground(new java.awt.Color(255, 255, 255));
+        btnAddImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/photo-gallery.png"))); // NOI18N
         btnAddImagem.setText("Adicionar Imagem");
         btnAddImagem.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnAddImagem.addActionListener(new java.awt.event.ActionListener() {
@@ -599,7 +606,7 @@ public class Principal extends javax.swing.JFrame {
                 .addContainerGap(75, Short.MAX_VALUE))
         );
 
-        jTabbedPane2.addTab("Portfólio", new javax.swing.ImageIcon(getClass().getResource("/briefcase.png")), jPanel9); // NOI18N
+        jTabbedPane2.addTab("Portfólio", new javax.swing.ImageIcon(getClass().getResource("/portfolio.png")), jPanel9); // NOI18N
 
         jPanel10.setBackground(new java.awt.Color(30, 0, 40));
 
@@ -655,6 +662,7 @@ public class Principal extends javax.swing.JFrame {
         btnAtualizar.setBackground(new java.awt.Color(255, 51, 153));
         btnAtualizar.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         btnAtualizar.setForeground(new java.awt.Color(255, 255, 255));
+        btnAtualizar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loading-arrow.png"))); // NOI18N
         btnAtualizar.setText("Atualizar");
         btnAtualizar.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnAtualizar.addActionListener(new java.awt.event.ActionListener() {
@@ -697,7 +705,7 @@ public class Principal extends javax.swing.JFrame {
                 .addContainerGap(22, Short.MAX_VALUE))
         );
 
-        jTabbedPane2.addTab("Lista", new javax.swing.ImageIcon(getClass().getResource("/task.png")), jPanel10); // NOI18N
+        jTabbedPane2.addTab("Lista", new javax.swing.ImageIcon(getClass().getResource("/completed-task.png")), jPanel10); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
