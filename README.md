@@ -20,5 +20,30 @@ A forma mais simples é clicar no botão verde **`<> Code`** no topo desta pági
 git clone https://github.com/leticiapachec0/2026-prog2-trabalho-estudio-de-tatuagem.git
 ```
 
+## Como abrir e executar no NetBeans:
 
+Abra o NetBeans e vá em **File → Open Project**. Navegue até a pasta onde você extraiu o projeto e selecione ela — o NetBeans vai reconhecer automaticamente que é um projeto Maven. Aguarde o carregamento terminar (tem uma barrinha de progresso no canto inferior direito, espere até ela sumir). Depois é só clicar na seta verde que se encontra na parte superior do NetBeans, porém abaixo do Menu de navegação.
 
+## Estrutura do projeto:
+
+```
+src/
+└── main/
+    ├── java/
+    │   └── com/mycompany/estudiodetatuagem/
+    │       ├── EstudioDeTatuagem.java      ← ponto de entrada do programa
+    │       ├── model/                      ← classes que representam os dados
+    │       ├── controller/                 ← classes com as regras do sistema
+    │       └── view/                       ← tela principal da interface
+    └── resources/                          ← ícones e imagens usados na interface
+```
+
+## Dependência utilizada (FlatLaf):
+
+O projeto usa a biblioteca [FlatLaf](https://www.formdev.com/flatlaf/) na versão **3.5.4**, que é responsável pelo visual moderno da interface (tema escuro). Ela é baixada automaticamente pelo Maven e não precisa de nenhuma configuração adicional.
+
+## Tecnologia utilizada:
+
+O projeto foi desenvolvido com **Java 24**, usando **Java Swing** para a interface gráfica e **Apache Maven** para o gerenciamento do projeto, tudo dentro do **NetBeans IDE**.
+
+*Trabalho desenvolvido para a disciplina de Programação de Computadores II — 2026*
