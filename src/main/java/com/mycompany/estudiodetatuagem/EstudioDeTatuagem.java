@@ -3,7 +3,7 @@
  */
 
 package com.mycompany.estudiodetatuagem;
-import com.formdev.flatlaf.FlatLightLaf;
+import com.formdev.flatlaf.FlatDarkLaf;
 import com.mycompany.estudiodetatuagem.view.Principal;
 
 /**
@@ -14,7 +14,7 @@ public class EstudioDeTatuagem {
 
     public static void main(String[] args) {
         
-        FlatLightLaf.setup();
+        FlatDarkLaf.setup();
         
         new Principal().setVisible(true);
     }

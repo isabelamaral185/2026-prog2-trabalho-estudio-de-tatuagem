@@ -8,6 +8,7 @@ package com.mycompany.estudiodetatuagem.model;
  *
  * @author amara
  */
+
 public class Agendamento {
     private String cliente;
     private String data;
@@ -21,19 +22,40 @@ public class Agendamento {
         this.status = status;
     }
 
-    public String getCliente() {
-        return cliente;
+    public String getCliente(){ 
+        return cliente; 
+    }
+    
+    public void setCliente(String cliente){ 
+        this.cliente = cliente; 
+    }
+    
+    public String getData(){ 
+        return data; 
+    }
+    
+    public void setData(String data){ 
+        this.data = data; 
+    }
+    
+    public String getArtista(){ 
+        return artista; 
+    }
+    
+    public void setArtista(String artista){ 
+        this.artista = artista; 
+    }
+    
+    public String getStatus(){ 
+        return status; 
+    }
+    
+    public void setStatus(String status){ 
+        this.status = status; 
     }
 
-    public String getData() {
-        return data;
-    }
-
-    public String getArtista() {
-        return artista;
-    }
-
-    public String getStatus() {
-        return status;
+    @Override
+    public String toString() {
+        return cliente + " - " + data + " (" + artista + ")";
     }
 }

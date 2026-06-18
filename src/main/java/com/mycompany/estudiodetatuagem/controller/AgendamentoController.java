@@ -13,15 +13,15 @@ import java.util.ArrayList;
  */
 public class AgendamentoController {
     private ArrayList<Agendamento> agendamentos;
-    
+
     public AgendamentoController(){
         agendamentos = new ArrayList<>();
     }
-    
+
     public void adicionar(Agendamento agendamento){
         agendamentos.add(agendamento);
     }
-    
+
     public ArrayList<Agendamento> listar(){
         return agendamentos;
     }

@@ -8,6 +8,7 @@ package com.mycompany.estudiodetatuagem.model;
  *
  * @author amara
  */
+
 public class Orcamento {
     private String estilo;
     private int tamanho;
@@ -19,15 +20,32 @@ public class Orcamento {
         this.valor = valor;
     }
 
-    public String getEstilo() {
-        return estilo;
+    public String getEstilo(){ 
+        return estilo; 
+    }
+    
+    public void setEstilo(String estilo){ 
+        this.estilo = estilo; 
     }
 
-    public int getTamanho() {
-        return tamanho;
+    public int getTamanho(){ 
+        return tamanho; 
+    }
+    
+    public void setTamanho(int tamanho){ 
+        this.tamanho = tamanho; 
     }
 
-    public double getValor() {
-        return valor;
+    public double getValor(){ 
+        return valor; 
+    }
+    
+    public void setValor(double valor){ 
+        this.valor = valor; 
+    }
+
+    @Override
+    public String toString() {
+        return String.format("Estilo: %s | Tamanho: %dcm | Valor: R$ %.2f", estilo, tamanho, valor);
     }
 }

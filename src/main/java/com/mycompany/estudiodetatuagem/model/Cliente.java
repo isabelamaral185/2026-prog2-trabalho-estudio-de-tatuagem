@@ -8,48 +8,54 @@ package com.mycompany.estudiodetatuagem.model;
  *
  * @author amara
  */
+
 public class Cliente {
     private String nome;
     private String telefone;
     private String email;
     private String indicacao;
+
+    public Cliente(String nome, String email, String telefone, String indicacao) {
+        this.nome = nome;
+        this.email = email;
+        this.telefone = telefone;
+        this.indicacao = indicacao;
+    }
+
+    public String getNome(){ 
+        return nome; 
+    }
     
-    public Cliente(String nome, String telefone, String email, String indicacao){
+    public void setNome(String nome){
         this.nome = nome;
-        this.telefone = telefone;
-        this.email = email;
-        this.indicacao = indicacao;
+    }
+    
+    public String getTelefone(){ 
+        return telefone; 
+    }
+    
+    public void setTelefone(String telefone){ 
+        this.telefone = telefone; 
+    }
+    
+    public String getEmail(){ 
+        return email; 
+    }
+    
+    public void setEmail(String email){ 
+        this.email = email; 
+    }
+    
+    public String getIndicacao(){ 
+        return indicacao; 
+    }
+    
+    public void setIndicacao(String indicacao){ 
+        this.indicacao = indicacao; 
     }
 
-    public String getNome() {
+    @Override
+    public String toString() {
         return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getTelefone() {
-        return telefone;
-    }
-
-    public void setTelefone(String telefone) {
-        this.telefone = telefone;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getIndicacao() {
-        return indicacao;
-    }
-
-    public void setIndicacao(String indicacao) {
-        this.indicacao = indicacao;
     }
 }

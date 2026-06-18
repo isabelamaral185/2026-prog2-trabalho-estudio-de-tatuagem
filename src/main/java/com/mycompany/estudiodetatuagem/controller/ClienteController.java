@@ -13,15 +13,15 @@ import java.util.ArrayList;
  */
 public class ClienteController {
     private ArrayList<Cliente> clientes;
-    
+
     public ClienteController(){
         clientes = new ArrayList<>();
     }
-    
+
     public void cadastrar(Cliente cliente){
         clientes.add(cliente);
     }
-    
+
     public ArrayList<Cliente> listar(){
         return clientes;
     }

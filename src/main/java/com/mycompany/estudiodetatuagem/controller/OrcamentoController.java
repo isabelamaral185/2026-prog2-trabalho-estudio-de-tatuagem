@@ -11,9 +11,9 @@ package com.mycompany.estudiodetatuagem.controller;
 public class OrcamentoController {
     public double calcular(String estilo, int tamanho){
         double valor = tamanho * 20;
-        
-        switch (estilo) {
-            case "Realista":
+
+        switch (estilo){
+            case "Realismo":
                 valor += 500;
                 break;
                 
@@ -21,7 +21,7 @@ public class OrcamentoController {
                 valor += 300;
                 break;
                 
-            case "Geométrica":
+            case "Geométrico":
                 valor += 250;
                 break;
                 
@@ -29,7 +29,6 @@ public class OrcamentoController {
                 valor += 150;
                 break;
         }
-        
         return valor;
     }
 }
