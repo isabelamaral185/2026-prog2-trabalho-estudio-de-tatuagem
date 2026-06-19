@@ -10,7 +10,7 @@ Sistema de gerenciamento de um estúdio de tatuagem, desenvolvido em Java com in
 
 ## Funcionalidades do programa:
 
-O programa é dividido em cinco abas. Na aba **Cliente**, é possível cadastrar, editar e remover clientes, guardando informações como nome, email, telefone e como eles ficaram sabendo do estúdio. Na aba **Agendamento**, o usuário escolhe um dia no calendário, define o horário e seleciona o artista responsável pela sessão. A aba **Orçamento** calcula o valor estimado da tatuagem com base no estilo escolhido (Old School, Realismo, Geométrico ou Minimalista) e no tamanho em centímetros. Já a aba **Portfólio** permite adicionar imagens do trabalho do estúdio direto do computador. Por último, a aba **Lista** exibe todos os agendamentos cadastrados e permite filtrar por artista.
+O programa é dividido em cinco abas. Na aba **Cliente**, é possível cadastrar clientes, guardando informações como nome, email, telefone e como eles ficaram sabendo do estúdio. Na aba **Agendamento**, o usuário escolhe um dia no calendário, define o horário e seleciona o artista responsável pela sessão. A aba **Orçamento** calcula o valor estimado da tatuagem com base no estilo escolhido (Old School, Realismo, Geométrico ou Minimalista) e no tamanho em centímetros. Já a aba **Dossiê  das Tatuadoras** permite visualizar uma pequena bio das tatuadoras do estúdio. Por último, a aba **Lista** exibe todos os agendamentos cadastrados e permite filtrar por artista, excluir ou editar.
 
 ## Instalações necessárias para compilar o programa:
 
